@@ -91,7 +91,7 @@ static NSString * const reuseIdentifier = @"HeadLine";
 
 /*
 // Uncomment this method to specify if the specified item should be selected
-- (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+- (BOOL)collectionView:(UICollectionView *)collectionView wangyiCYC.xcodeprojshouldSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     return YES;
 }
 */
