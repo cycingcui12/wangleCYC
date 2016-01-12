@@ -10,10 +10,12 @@
 		094298A11C4412B1003121C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094298A01C4412B1003121C6 /* main.m */; };
 		094298A41C4412B1003121C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 094298A31C4412B1003121C6 /* AppDelegate.m */; };
 		094298A71C4412B1003121C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094298A61C4412B1003121C6 /* ViewController.m */; };
-		094298AA1C4412B1003121C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094298A81C4412B1003121C6 /* Main.storyboard */; };
 		094298AC1C4412B1003121C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094298AB1C4412B1003121C6 /* Assets.xcassets */; };
 		094298AF1C4412B1003121C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094298AD1C4412B1003121C6 /* LaunchScreen.storyboard */; };
 		094298BA1C4412B1003121C6 /* wangyiCYCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094298B91C4412B1003121C6 /* wangyiCYCUITests.m */; };
+		09BDE5EE1C44C5DE00572D14 /* HMHeadLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BDE5ED1C44C5DE00572D14 /* HMHeadLineViewController.m */; settings = {ASSET_TAGS = (); }; };
+		09BDE5F01C44C70300572D14 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BDE5EF1C44C70300572D14 /* News.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C3E9A40C781359F8FFCBBC3C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7316C27D52F8C431918893C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013B80BB70FBB3CAA47AA525 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		0942989C1C4412B1003121C6 /* wangyiCYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangyiCYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		094298A01C4412B1003121C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		094298A21C4412B1003121C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		094298A31C4412B1003121C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		094298A51C4412B1003121C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		094298A61C4412B1003121C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		094298A91C4412B1003121C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		094298AB1C4412B1003121C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		094298AE1C4412B1003121C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		094298B01C4412B1003121C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		094298B51C4412B1003121C6 /* wangyiCYCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wangyiCYCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		094298B91C4412B1003121C6 /* wangyiCYCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wangyiCYCUITests.m; sourceTree = "<group>"; };
 		094298BB1C4412B1003121C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BDE5EC1C44C5DE00572D14 /* HMHeadLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHeadLineViewController.h; sourceTree = "<group>"; };
+		09BDE5ED1C44C5DE00572D14 /* HMHeadLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHeadLineViewController.m; sourceTree = "<group>"; };
+		09BDE5EF1C44C70300572D14 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		D7316C27D52F8C431918893C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF38450F8432B710C73C6FC8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E9A40C781359F8FFCBBC3C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +74,8 @@
 				0942989E1C4412B1003121C6 /* wangyiCYC */,
 				094298B81C4412B1003121C6 /* wangyiCYCUITests */,
 				0942989D1C4412B1003121C6 /* Products */,
+				E4E78CA068BF60169AB30241 /* Pods */,
+				8427626CE0D22AD69F596199 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,12 +94,14 @@
 				094298A21C4412B1003121C6 /* AppDelegate.h */,
 				094298A31C4412B1003121C6 /* AppDelegate.m */,
 				094298A51C4412B1003121C6 /* ViewController.h */,
+				09BDE5EF1C44C70300572D14 /* News.storyboard */,
+				09BDE5EC1C44C5DE00572D14 /* HMHeadLineViewController.h */,
+				09BDE5ED1C44C5DE00572D14 /* HMHeadLineViewController.m */,
 				094298A61C4412B1003121C6 /* ViewController.m */,
-				094298A81C4412B1003121C6 /* Main.storyboard */,
+				0942989F1C4412B1003121C6 /* Supporting Files */,
 				094298AB1C4412B1003121C6 /* Assets.xcassets */,
 				094298AD1C4412B1003121C6 /* LaunchScreen.storyboard */,
 				094298B01C4412B1003121C6 /* Info.plist */,
-				0942989F1C4412B1003121C6 /* Supporting Files */,
 			);
 			path = wangyiCYC;
 			sourceTree = "<group>";
@@ -111,6 +123,23 @@
 			path = wangyiCYCUITests;
 			sourceTree = "<group>";
 		};
+		8427626CE0D22AD69F596199 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7316C27D52F8C431918893C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4E78CA068BF60169AB30241 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				013B80BB70FBB3CAA47AA525 /* Pods.debug.xcconfig */,
+				EF38450F8432B710C73C6FC8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 094298BE1C4412B2003121C6 /* Build configuration list for PBXNativeTarget "wangyiCYC" */;
 			buildPhases = (
+				2AE0A60871D948C2A20E9DFA /* Check Pods Manifest.lock */,
 				094298981C4412B1003121C6 /* Sources */,
 				094298991C4412B1003121C6 /* Frameworks */,
 				0942989A1C4412B1003121C6 /* Resources */,
+				E52902837DA4EBB8200C18F4 /* Embed Pods Frameworks */,
+				4214954DF22B265E33D6D7E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +225,7 @@
 			files = (
 				094298AF1C4412B1003121C6 /* LaunchScreen.storyboard in Resources */,
 				094298AC1C4412B1003121C6 /* Assets.xcassets in Resources */,
-				094298AA1C4412B1003121C6 /* Main.storyboard in Resources */,
+				09BDE5F01C44C70300572D14 /* News.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +238,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AE0A60871D948C2A20E9DFA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4214954DF22B265E33D6D7E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E52902837DA4EBB8200C18F4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		094298981C4412B1003121C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -214,6 +294,7 @@
 				094298A71C4412B1003121C6 /* ViewController.m in Sources */,
 				094298A41C4412B1003121C6 /* AppDelegate.m in Sources */,
 				094298A11C4412B1003121C6 /* main.m in Sources */,
+				09BDE5EE1C44C5DE00572D14 /* HMHeadLineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		094298A81C4412B1003121C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				094298A91C4412B1003121C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		094298AD1C4412B1003121C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -337,6 +410,7 @@
 		};
 		094298BF1C4412B2003121C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013B80BB70FBB3CAA47AA525 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wangyiCYC/Info.plist;
@@ -348,6 +422,7 @@
 		};
 		094298C01C4412B2003121C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF38450F8432B710C73C6FC8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wangyiCYC/Info.plist;
@@ -400,6 +475,7 @@
 				094298C01C4412B2003121C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		094298C11C4412B2003121C6 /* Build configuration list for PBXNativeTarget "wangyiCYCUITests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +484,7 @@
 				094298C31C4412B2003121C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
